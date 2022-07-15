@@ -1,3 +1,5 @@
+#Drew Schmidt 7/14/22
+#Python practice from TCM Security's Python for Behginners Course
 #SOCKETS
 
 import socket 
