@@ -19,9 +19,9 @@
 
 #months.close
 
-days = open("days.txt", "a") #r for read, w for write, a for append
+#days = open("days.txt", "a") #r for read, w for write, a for append
 #print(days.mode)
 
-days.write("\nWednesday")
+#days.write("\nWednesday")
 
-days.close()
+#days.close()
