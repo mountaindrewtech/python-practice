@@ -1,4 +1,5 @@
-changeAmt = 84
+changeAmt = input("What is the customer's change amount?")
+changeAmt = int(changeAmt)
 
 numQtrs = changeAmt // 25 #Figure out the number of quarters
 changeAmt = changeAmt - (numQtrs * 25)
@@ -12,8 +13,9 @@ changeAmt -= (numNickels * 5)
 numPennies = changeAmt // 1
 changeAmt -= (numPennies * 1)
 
-print("Quarters " + str(numQtrs))
-print("Dimes: " + str(numDimes))
-print("Nickels: " + str(numNickels))
-print("Pennies: " + str(numPennies))
-print("Final Change Amount: " + str(changeAmt))
+print("Quarters:",numQtrs)
+print("Dimes: %s" % numDimes)
+print("Nickels: {}".format(numNickels))
+print(f"Pennies: {numPennies}")
+print(f"Final Change Amount: {changeAmt}")
+
